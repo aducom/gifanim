@@ -1,0 +1,38 @@
+{ Ceci est un fichier ressource généré automatiquement par Lazarus }
+
+LazarusResources.Add('TForm1','FORMDATA',[
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3't'#1#6'Height'#3'u'#1#3'Top'#3'"'#1#5'Wid'
+  +'th'#3#132#2#13'ActiveControl'#7#15'Edit_ZoomFactor'#7'Caption'#6#12'Animate'
+  +'d Gif'#12'ClientHeight'#3'u'#1#11'ClientWidth'#3#132#2#5'Color'#7#8'clSilve'
+  +'r'#8'OnCreate'#7#10'FormCreate'#9'OnDestroy'#7#11'FormDestroy'#8'Position'#7
+  +#16'poDefaultPosOnly'#10'LCLVersion'#6#8'0.9.26.2'#0#6'TLabel'#6'Label1'#4'L'
+  +'eft'#3#176#0#6'Height'#2#18#3'Top'#2'+'#5'Width'#2'-'#7'Caption'#6#6'Mode :'
+  +#11'ParentColor'#8#0#0#6'TLabel'#6'Label2'#4'Left'#3#176#0#6'Height'#2#18#3
+  +'Top'#2#12#5'Width'#2'Y'#7'Caption'#6#13'Zoom factor :'#11'ParentColor'#8#0#0
+  +#9'TPaintBox'#6'Panel1'#4'Left'#2#8#6'Height'#3','#1#3'Top'#2'H'#5'Width'#3
+  +'y'#2#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#8'akBottom'#0#11'OnMouseDo'
+  +'wn'#7#14'PanelMouseDown'#11'OnMouseMove'#7#14'PanelMouseMove'#9'OnMouseUp'#7
+  +#12'PanelMouseUp'#7'OnPaint'#7#11'Panel1Paint'#0#0#7'TButton'#7'Button1'#4'L'
+  +'eft'#2#8#6'Height'#2#25#3'Top'#2#10#5'Width'#2'H'#7'Caption'#6#5'Pause'#7'O'
+  +'nClick'#7#12'Button1Click'#8'TabOrder'#2#0#0#0#7'TButton'#7'Button2'#4'Left'
+  +#2'X'#6'Height'#2#25#3'Top'#2#10#5'Width'#2'K'#7'Caption'#6#6'Resume'#7'OnCl'
+  +'ick'#7#12'Button2Click'#8'TabOrder'#2#1#0#0#7'TButton'#7'Button3'#4'Left'#2
+  +#8#6'Height'#2#25#3'Top'#2'('#5'Width'#2'H'#7'Caption'#6#4'Prev'#7'OnClick'#7
+  +#12'Button3Click'#8'TabOrder'#2#2#0#0#7'TButton'#7'Button4'#4'Left'#2'X'#6'H'
+  +'eight'#2#25#3'Top'#2'('#5'Width'#2'K'#7'Caption'#6#4'Next'#7'OnClick'#7#12
+  +'Button4Click'#8'TabOrder'#2#3#0#0#7'TButton'#7'Button5'#4'Left'#3'X'#1#6'He'
+  +'ight'#2#25#3'Top'#2#10#5'Width'#2'K'#7'Caption'#6#4'Open'#7'OnClick'#7#12'B'
+  +'utton5Click'#8'TabOrder'#2#4#0#0#7'TButton'#7'Button6'#4'Left'#3#168#1#6'He'
+  +'ight'#2#25#3'Top'#2#10#5'Width'#2'K'#7'Caption'#6#5'Close'#7'OnClick'#7#12
+  +'Button6Click'#8'TabOrder'#2#5#0#0#9'TComboBox'#13'ComboBox_Mode'#4'Left'#3
+  +#232#0#6'Height'#2#31#3'Top'#2'&'#5'Width'#3'V'#1#12'AutoComplete'#8#5'Ctl3D'
+  +#8#10'ItemHeight'#2#0#9'ItemWidth'#2#0#8'OnChange'#7#19'ComboBox_ModeChange'
+  +#5'Style'#7#14'csDropDownList'#8'TabOrder'#2#6#0#0#5'TEdit'#15'Edit_ZoomFact'
+  +'or'#4'Left'#3#24#1#6'Height'#2#27#3'Top'#2#8#5'Width'#2'8'#8'TabOrder'#2#7#4
+  +'Text'#6#3'1.0'#0#0#7'TButton'#7'Button7'#4'Left'#3#248#1#6'Height'#2#25#3'T'
+  +'op'#2#10#5'Width'#2'F'#7'Caption'#6#7'Repaint'#7'OnClick'#7#12'Button7Click'
+  +#8'TabOrder'#2#8#0#0#18'TOpenPictureDialog'#18'OpenPictureDialog1'#10'Initia'
+  +'lDir'#6#3'gif'#4'left'#3#200#0#3'top'#3#0#1#0#0#10'TIdleTimer'#10'IdleTimer'
+  +'1'#7'Enabled'#8#8'Interval'#2#10#7'OnTimer'#7#15'IdleTimer1Timer'#4'left'#2
+  +'8'#3'top'#3#0#1#0#0#0
+]);

@@ -1,0 +1,138 @@
+object Form1: TForm1
+  Left = 372
+  Height = 373
+  Top = 290
+  Width = 644
+  ActiveControl = Edit_ZoomFactor
+  Caption = 'Animated Gif'
+  ClientHeight = 373
+  ClientWidth = 644
+  Color = clSilver
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poDefaultPosOnly
+  LCLVersion = '0.9.26.2'
+  object Label1: TLabel
+    Left = 176
+    Height = 18
+    Top = 43
+    Width = 45
+    Caption = 'Mode :'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 176
+    Height = 18
+    Top = 12
+    Width = 89
+    Caption = 'Zoom factor :'
+    ParentColor = False
+  end
+  object Panel1: TPaintBox
+    Left = 8
+    Height = 300
+    Top = 72
+    Width = 633
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    OnMouseDown = PanelMouseDown
+    OnMouseMove = PanelMouseMove
+    OnMouseUp = PanelMouseUp
+    OnPaint = Panel1Paint
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 10
+    Width = 72
+    Caption = 'Pause'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 88
+    Height = 25
+    Top = 10
+    Width = 75
+    Caption = 'Resume'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 8
+    Height = 25
+    Top = 40
+    Width = 72
+    Caption = 'Prev'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 88
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'Next'
+    OnClick = Button4Click
+    TabOrder = 3
+  end
+  object Button5: TButton
+    Left = 344
+    Height = 25
+    Top = 10
+    Width = 75
+    Caption = 'Open'
+    OnClick = Button5Click
+    TabOrder = 4
+  end
+  object Button6: TButton
+    Left = 424
+    Height = 25
+    Top = 10
+    Width = 75
+    Caption = 'Close'
+    OnClick = Button6Click
+    TabOrder = 5
+  end
+  object ComboBox_Mode: TComboBox
+    Left = 232
+    Height = 31
+    Top = 38
+    Width = 342
+    AutoComplete = False
+    Ctl3D = False
+    ItemHeight = 0
+    ItemWidth = 0
+    OnChange = ComboBox_ModeChange
+    Style = csDropDownList
+    TabOrder = 6
+  end
+  object Edit_ZoomFactor: TEdit
+    Left = 280
+    Height = 27
+    Top = 8
+    Width = 56
+    TabOrder = 7
+    Text = '1.0'
+  end
+  object Button7: TButton
+    Left = 504
+    Height = 25
+    Top = 10
+    Width = 70
+    Caption = 'Repaint'
+    OnClick = Button7Click
+    TabOrder = 8
+  end
+  object OpenPictureDialog1: TOpenPictureDialog
+    InitialDir = 'gif'
+    left = 200
+    top = 256
+  end
+  object IdleTimer1: TIdleTimer
+    Enabled = False
+    Interval = 10
+    OnTimer = IdleTimer1Timer
+    left = 56
+    top = 256
+  end
+end
